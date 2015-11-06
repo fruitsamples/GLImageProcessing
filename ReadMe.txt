@@ -14,12 +14,12 @@ To use this sample, open it in Xcode and click Build and Go. Use the slider to c
 ================================================================================
 BUILD REQUIREMENTS:
 
-Mac OS X v10.5.7, Xcode 3.1, iPhone OS 3.0
+iOS 4.0 SDK
 
 ================================================================================
 RUNTIME REQUIREMENTS:
 
-iPhone OS 3.0
+iPhone OS 3.2 or later
 
 ================================================================================
 PACKAGING LIST:
@@ -51,4 +51,4 @@ Image.png
 The screen-sized image loaded as a texture.
 
 ================================================================================
-Copyright (C) 2008 Apple Inc. All rights reserved.
+Copyright (C) 2008-2010 Apple Inc. All rights reserved.

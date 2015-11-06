@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1811EF5D11D02C1D0068DA4C /* Image.png in Resources */ = {isa = PBXBuildFile; fileRef = 1811EF5A11D02C1D0068DA4C /* Image.png */; };
+		182594EF11D11A54000B79F7 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182594ED11D11A54000B79F7 /* MainWindow.xib */; };
+		18AD6BC611D57040005232E4 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AD6BBF11D57040005232E4 /* Icon-72.png */; };
+		18AD6BC711D57040005232E4 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AD6BC011D57040005232E4 /* Icon-Small-50.png */; };
+		18AD6BC811D57040005232E4 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AD6BC111D57040005232E4 /* Icon-Small.png */; };
+		18AD6BC911D57040005232E4 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AD6BC211D57040005232E4 /* Icon-Small@2x.png */; };
+		18AD6BCA11D57040005232E4 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AD6BC311D57040005232E4 /* Icon.png */; };
+		18AD6BCB11D57040005232E4 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AD6BC411D57040005232E4 /* Icon@2x.png */; };
+		18AD6BCC11D57040005232E4 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 18AD6BC511D57040005232E4 /* iTunesArtwork */; };
+		18AD6BCE11D57068005232E4 /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 18AD6BCD11D57068005232E4 /* ReadMe.txt */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
@@ -16,14 +26,21 @@
 		9B72F2440FCC86E3008F116A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B72F2430FCC86E3008F116A /* ViewController.m */; };
 		9B72F2490FCC86EE008F116A /* Imaging.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B72F2460FCC86EE008F116A /* Imaging.c */; };
 		9B72F24A0FCC86EE008F116A /* Texture.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B72F2480FCC86EE008F116A /* Texture.m */; };
-		9B72F24F0FCC8701008F116A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B72F24B0FCC8701008F116A /* MainWindow.xib */; };
-		9B72F2500FCC8701008F116A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B72F24C0FCC8701008F116A /* Icon.png */; };
-		9B72F2520FCC8701008F116A /* Image.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B72F24E0FCC8701008F116A /* Image.png */; };
 		9B72F2560FCC87C4008F116A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B72F2550FCC87C4008F116A /* CoreGraphics.framework */; };
 		9B81DC9E0FF08151008DF9CA /* Debug.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B81DC9C0FF08151008DF9CA /* Debug.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1811EF5A11D02C1D0068DA4C /* Image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Image.png; path = images/Image.png; sourceTree = "<group>"; };
+		182594EE11D11A54000B79F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		18AD6BBF11D57040005232E4 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "images/Icon-72.png"; sourceTree = "<group>"; };
+		18AD6BC011D57040005232E4 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "images/Icon-Small-50.png"; sourceTree = "<group>"; };
+		18AD6BC111D57040005232E4 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "images/Icon-Small.png"; sourceTree = "<group>"; };
+		18AD6BC211D57040005232E4 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "images/Icon-Small@2x.png"; sourceTree = "<group>"; };
+		18AD6BC311D57040005232E4 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = images/Icon.png; sourceTree = "<group>"; };
+		18AD6BC411D57040005232E4 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "images/Icon@2x.png"; sourceTree = "<group>"; };
+		18AD6BC511D57040005232E4 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtwork; path = images/iTunesArtwork; sourceTree = "<group>"; };
+		18AD6BCD11D57068005232E4 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* GLImageProcessing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GLImageProcessing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -38,9 +55,6 @@
 		9B72F2460FCC86EE008F116A /* Imaging.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Imaging.c; sourceTree = "<group>"; };
 		9B72F2470FCC86EE008F116A /* Texture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Texture.h; sourceTree = "<group>"; };
 		9B72F2480FCC86EE008F116A /* Texture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Texture.m; sourceTree = "<group>"; };
-		9B72F24B0FCC8701008F116A /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = Resources/MainWindow.xib; sourceTree = "<group>"; };
-		9B72F24C0FCC8701008F116A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Icon.png; sourceTree = "<group>"; };
-		9B72F24E0FCC8701008F116A /* Image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Image.png; path = Resources/Image.png; sourceTree = "<group>"; };
 		9B72F2550FCC87C4008F116A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		9B72F2770FCC87EA008F116A /* GLImageProcessing-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GLImageProcessing-Info.plist"; sourceTree = "<group>"; };
 		9B81DC9C0FF08151008DF9CA /* Debug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Debug.c; sourceTree = "<group>"; };
@@ -85,6 +99,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				18AD6BCD11D57068005232E4 /* ReadMe.txt */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -111,9 +126,15 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9B72F24B0FCC8701008F116A /* MainWindow.xib */,
-				9B72F24C0FCC8701008F116A /* Icon.png */,
-				9B72F24E0FCC8701008F116A /* Image.png */,
+				18AD6BBF11D57040005232E4 /* Icon-72.png */,
+				18AD6BC011D57040005232E4 /* Icon-Small-50.png */,
+				18AD6BC111D57040005232E4 /* Icon-Small.png */,
+				18AD6BC211D57040005232E4 /* Icon-Small@2x.png */,
+				18AD6BC311D57040005232E4 /* Icon.png */,
+				18AD6BC411D57040005232E4 /* Icon@2x.png */,
+				18AD6BC511D57040005232E4 /* iTunesArtwork */,
+				182594ED11D11A54000B79F7 /* MainWindow.xib */,
+				1811EF5A11D02C1D0068DA4C /* Image.png */,
 				9B72F2770FCC87EA008F116A /* GLImageProcessing-Info.plist */,
 			);
 			name = Resources;
@@ -159,6 +180,13 @@
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "GLImageProcessing" */;
 			compatibilityVersion = "Xcode 3.1";
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -173,9 +201,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B72F24F0FCC8701008F116A /* MainWindow.xib in Resources */,
-				9B72F2500FCC8701008F116A /* Icon.png in Resources */,
-				9B72F2520FCC8701008F116A /* Image.png in Resources */,
+				1811EF5D11D02C1D0068DA4C /* Image.png in Resources */,
+				182594EF11D11A54000B79F7 /* MainWindow.xib in Resources */,
+				18AD6BC611D57040005232E4 /* Icon-72.png in Resources */,
+				18AD6BC711D57040005232E4 /* Icon-Small-50.png in Resources */,
+				18AD6BC811D57040005232E4 /* Icon-Small.png in Resources */,
+				18AD6BC911D57040005232E4 /* Icon-Small@2x.png in Resources */,
+				18AD6BCA11D57040005232E4 /* Icon.png in Resources */,
+				18AD6BCB11D57040005232E4 /* Icon@2x.png in Resources */,
+				18AD6BCC11D57040005232E4 /* iTunesArtwork in Resources */,
+				18AD6BCE11D57068005232E4 /* ReadMe.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +231,17 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		182594ED11D11A54000B79F7 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182594EE11D11A54000B79F7 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
@@ -236,8 +282,9 @@
 				);
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				PREBINDING = NO;
-				SDKROOT = iphoneos3.0;
+				SDKROOT = iphoneos4.0;
 			};
 			name = Debug;
 		};
@@ -250,8 +297,9 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				PREBINDING = NO;
-				SDKROOT = iphoneos3.0;
+				SDKROOT = iphoneos4.0;
 			};
 			name = Release;
 		};
